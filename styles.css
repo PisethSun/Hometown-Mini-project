@@ -1,0 +1,158 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+     margin: 0;
+     text-align: center;
+     border: 1px solid black;
+     background: linear-gradient(#ffffff,#696eff);
+     font-family: "Sansita", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    
+}
+
+
+img {
+    width: 100px;
+}
+
+#section-hero{
+    display: flex;
+    justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     background-image: url("images/hero-BG.jpg");
+     width: 720px;
+     height: 343px;
+     background-size: cover;
+     padding-bottom: 50px;
+}
+
+#section-activities{
+    display: flex;   
+    /* default row */
+     width: 720px;
+     height: 378px;
+     background-color: #F1FAEE;
+     justify-content: center;
+     flex-direction: column;
+}
+#first-child{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-bottom: 50px;
+
+}
+
+
+#title{
+    color: #F1FAEE;
+    
+}
+#title-2{
+    color: #1D3557;
+    font-size: 24px;
+    
+}
+#title-guide{
+    color: #1D3557;
+    font-weight: 700;
+}
+
+
+
+#sub-title{
+    background-color: #457B9D;
+    padding: 5px 30px ;
+    border-radius: 5px;
+    color: #F1FAEE;
+    margin-bottom: 200px;
+}
+
+#second-child{
+    height: 226px;
+    width: 198px;
+    padding-top: 39px;
+}
+#section-img{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.desc{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    width: 195px;
+    height: 55px;
+    font-size: 16px
+    
+
+}
+
+.desc-h3{
+    width: 183px;
+    height: 32px;
+}
+
+#section-guide{
+    width: 720px;
+    height: 394px;
+    background-color: #FFFFFF;
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+#third-child{
+    width: 400px;
+    height: 294px;
+    background-color: #A8DADC;
+    border-radius: 10px;  
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 160px;
+    padding: 20px;
+    text-shadow: 10px;
+    color: #1D3557;
+    
+}
+#fourth-child{
+    width: 207px;
+    height: 32px;
+    font-size: 24px;
+}
+
+.italic{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.card-picture{
+    width: 180px;
+    height: 248.67px;
+    border-radius: 10px;
+}
+.name{
+    font-size: 16px;
+}
+
